@@ -1,0 +1,42 @@
+/*----- BUTTON -----*/
+
+@import './variable';
+
+.button-caja {
+    height: $button_h;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.button-primary{
+    background-color: $color_primary;
+    width: $button_primary_w;
+}
+
+.button-secundary{
+    background-color: $color_secondary;
+    width: $button_secondary_w;
+}
+
+.button-success{
+    background-color: $color_success;
+    width: $button_success_w;
+}
+
+.button-danger{
+    background-color: $color_danger;
+    width: $button_danger_w;
+}
+
+.button-warning{
+    background-color: $color_warning;
+    width: $button_warning_w;
+}
+
+.button-info{
+    background-color: $color_info;
+    width: $button_info_w;
+}

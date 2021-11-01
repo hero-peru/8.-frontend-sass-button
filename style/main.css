@@ -1,0 +1,61 @@
+/*----- BODY -----*/
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/*----- BUTTON -----*/
+/*----- VARIABLES -----*/
+.button-caja {
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.button-primary {
+  background-color: #0d6efd;
+  width: 120px;
+}
+
+.button-secundary {
+  background-color: #565e64;
+  width: 140px;
+}
+
+.button-success {
+  background-color: #198754;
+  width: 160px;
+}
+
+.button-danger {
+  background-color: #dc3545;
+  width: 180px;
+}
+
+.button-warning {
+  background-color: #ffc107;
+  width: 200px;
+}
+
+.button-info {
+  background-color: #0dcaf0;
+  width: 220px;
+}
+/*# sourceMappingURL=main.css.map */
